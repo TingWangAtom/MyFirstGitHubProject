@@ -1,6 +1,0 @@
-framework module GithubUploadLib {
-  umbrella header "GithubUploadLib-umbrella.h"
-
-  export *
-  module * { export * }
-}
