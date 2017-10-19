@@ -1,0 +1,6 @@
+framework module MyFirstGitHubProject {
+  umbrella header "MyFirstGitHubProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
