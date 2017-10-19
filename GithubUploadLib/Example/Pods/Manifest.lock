@@ -9,7 +9,11 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - GithubUploadLib (0.1.0)
+  - GithubUploadLib (0.1.0):
+    - SDWebImage
+  - SDWebImage (4.1.2):
+    - SDWebImage/Core (= 4.1.2)
+  - SDWebImage/Core (4.1.2)
   - Specta (1.0.7)
 
 DEPENDENCIES:
@@ -27,7 +31,8 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GithubUploadLib: 8231320260ea86587e50852a60f1825795df20c7
+  GithubUploadLib: 66fa3cf6e89cf707ef6c70e0c2ae2fcb2d0f0494
+  SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
 PODFILE CHECKSUM: 875985e3251ba4462bbdd6ef21247545fe6e881e
