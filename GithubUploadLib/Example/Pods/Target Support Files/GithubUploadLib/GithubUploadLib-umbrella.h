@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "GithubUploadLib.h"
 
 FOUNDATION_EXPORT double GithubUploadLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char GithubUploadLibVersionString[];
